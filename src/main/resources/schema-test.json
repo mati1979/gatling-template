@@ -1,0 +1,33 @@
+{
+    "mappings": {
+        "entry": {
+            "properties": {
+                "attribute_name": {
+                    "index": "no",
+                    "store": "yes",
+                    "type": "string"
+                },
+                "identity_uuid": {
+                    "index": "no",
+                    "store": "yes",
+                    "type": "string"
+                },
+                "namespace_id": {
+                    "index": "no",
+                    "store": "yes",
+                    "type": "long"
+                },
+                "value_name": {
+                    "index": "analyzed",
+                    "store": "no",
+                    "type": "string"
+                },
+                "value_number": {
+                    "index": "analyzed",
+                    "store": "no",
+                    "type": "long"
+                }
+            }
+        }
+    }
+}
